@@ -1,27 +1,27 @@
-Countries Edible,Value1
-Argentina,5591.359
-Canada,14528.479
-Chile                                   ,7391.572
-China                                   ,269498.152
-Denmark ,71126.048
-Germany ,5818.692
-India ,3914.323
-Indonesia ,113313.03
-Italy ,10116.317
-Japan ,26938.035
-"Korea, Republic of",11349.653
-Malaysia,69188.104
-Myanmar ,11973.255
-Namibia ,9041.149
-New Zealand ,208235.932
-Norway,71117.267
-Philippines ,7970.968
-Poland,28337.142
-Singapore ,5474.317
-South Africa,33854.162
-Taiwan,50763.411
-Thailand,381292.513
-United Kingdom,16248.045
-United States,53554.388
-Vietnam,363192.339
-Other,82929.863
+Imported Countries Edible,Value1,longitude,latitude
+Argentina,5591.359,-58.4173,-34.6118
+Canada,14528.479,-75.6919,45.4215
+Chile                                   ,7391.572,-70.6693,-33.4489
+China                                   ,269498.152,116.4074,39.9042
+Denmark ,71126.048,12.5683,55.6761
+Germany ,5818.692,13.405,52.52
+India ,3914.323,77.209,28.6139
+Indonesia ,113313.03,106.8456,-6.2088
+Italy ,10116.317,12.4964,41.9028
+Japan ,26938.035,139.759455,35.682839
+"Korea, Republic of",11349.653,126.978,37.5665
+Malaysia,69188.104,101.6869,3.139
+Myanmar ,11973.255,96.1951,16.8661
+Namibia ,9041.149,17.0832,-22.5597
+New Zealand ,208235.932,174.7762,-41.2865
+Norway,71117.267,10.7522,59.9139
+Philippines ,7970.968,122.5305,13.4124
+Poland,28337.142,21.0122,52.2297
+Singapore ,5474.317,103.8198,1.3521
+South Africa,33854.162,28.1881,-25.7461
+Taiwan,50763.411,121.5654,25.033
+Thailand,381292.513,100.5018,13.7563
+United Kingdom,16248.045,-0.118,51.5099
+United States,53554.388,-77.0364,38.8951
+Vietnam,363192.339,105.8542,21.0285
+Other,82929.863,,
