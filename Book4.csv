@@ -1,4 +1,4 @@
-origin,latitude,longitude,destination,latitude,longitude,count
+origin,latitude_o,longitude_o,destination,latitude,longitude,count
 Australia,-25.2744,133.7751,Argentina,-34.6118,-58.4173,5591.359
 Australia,-25.2744,133.7751,Canada,45.4215,-75.6919,14528.479
 Australia,-25.2744,133.7751,Chile                                   ,-33.4489,-70.6693,7391.572
