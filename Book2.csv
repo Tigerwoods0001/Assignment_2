@@ -1,12 +1,12 @@
-origin,latitude_o,longitude_o,destination,latitude,longitude
-Australia,-25.2744,133.7751,Chile,-35.6751,-71.543
-Australia,-25.2744,133.7751,China,35.8617,104.1954
-Australia,-25.2744,133.7751,Ecuador,-1.8312,-78.1834
-Australia,-25.2744,133.7751,Hong Kong,22.3964,114.1095
-Australia,-25.2744,133.7751,Indonesia ,-2.1833,117.1382
-Australia,-25.2744,133.7751,Japan ,36.2048,138.2529
-Australia,-25.2744,133.7751,New Zealand ,-40.9006,174.886
-Australia,-25.2744,133.7751,Norway,60.472,8.4689
-Australia,-25.2744,133.7751,Peru,-9.19,-74.3546
-Australia,-25.2744,133.7751,Thailand,15.87,100.9925
-Australia,-25.2744,133.7751,United States ,37.0902,-95.7129
+origin,latitude_o,longitude_o,destination,latitude,longitude,
+Australia,-25.2744,133.7751,Chile,-35.6751,-71.543,13608.311
+Australia,-25.2744,133.7751,China,35.8617,104.1954,13073.945
+Australia,-25.2744,133.7751,Ecuador,-1.8312,-78.1834,0
+Australia,-25.2744,133.7751,Hong Kong,22.3964,114.1095,1138.875
+Australia,-25.2744,133.7751,Indonesia ,-2.1833,117.1382,19026.967
+Australia,-25.2744,133.7751,Japan ,36.2048,138.2529,3415.733
+Australia,-25.2744,133.7751,New Zealand ,-40.9006,174.886,6592.132
+Australia,-25.2744,133.7751,Norway,60.472,8.4689,14945.53
+Australia,-25.2744,133.7751,Peru,-9.19,-74.3546,59362.702
+Australia,-25.2744,133.7751,Thailand,15.87,100.9925,11009.069
+Australia,-25.2744,133.7751,United States ,37.0902,-95.7129,7376.249
