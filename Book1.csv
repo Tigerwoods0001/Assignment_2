@@ -1,4 +1,4 @@
-origin,latitude_o,longitude_o,destination,latitude,longitude,value2
+origin,latitude_o,longitude_o,destination,latitude,longitude,count
 Australia,-25.2744,133.7751,Canada,55.4215,-75.6919,2986.686
 Australia,-25.2744,133.7751,China,35.8617,104.1954,360860.188
 Australia,-25.2744,133.7751,France,46.6033,1.8883,1298.38
