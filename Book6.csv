@@ -1,16 +1,16 @@
-origin,latitude_o,longitude_o,destination,latitude,longitude
-Australia,-25.2744,133.7751,China,35.8617,104.1954
-Australia,-25.2744,133.7751,France,46.6034,2.3508
-Australia,-25.2744,133.7751,Germany,51.1657,10.4515
-Australia,-25.2744,133.7751,Hong Kong,22.3964,114.1095
-Australia,-25.2744,133.7751,Indonesia,-2.1833,117.1382
-Australia,-25.2744,133.7751,Italy,41.8719,12.5674
-Australia,-25.2744,133.7751,Japan,36.2048,138.2529
-Australia,-25.2744,133.7751,New Zealand,-40.9006,174.886
-Australia,-25.2744,133.7751,Singapore,1.3521,103.8198
-Australia,-25.2744,133.7751,Switzerland,46.8182,7.6788
-Australia,-25.2744,133.7751,Thailand,15.87,100.9925
-Australia,-25.2744,133.7751,United Arab Emirates,23.4241,53.8478
-Australia,-25.2744,133.7751,United Kingdom,55.3781,-3.436
-Australia,-25.2744,133.7751,United States,37.0902,-95.7129
-Australia,-25.2744,133.7751,Vietnam,14.0583,108.2772
+origin,latitude_o,longitude_o,desitnation,latitude,longitude,count
+Australia,-25.2744,133.7751,China,35.8617,104.1954,4230.744
+Australia,-25.2744,133.7751,France,46.6034,2.3508,485.77
+Australia,-25.2744,133.7751,Germany,51.1657,10.4515,2238.044
+Australia,-25.2744,133.7751,Hong Kong,22.3964,114.1095,20746.089
+Australia,-25.2744,133.7751,Indonesia,-2.1833,117.1382,2923.533
+Australia,-25.2744,133.7751,Italy,41.8719,12.5674,899.759
+Australia,-25.2744,133.7751,Japan,36.2048,138.2529,25236.524
+Australia,-25.2744,133.7751,New Zealand,-40.9006,174.886,4163.495
+Australia,-25.2744,133.7751,Singapore,1.3521,103.8198,1352.524
+Australia,-25.2744,133.7751,Switzerland,46.8182,7.6788,778.938
+Australia,-25.2744,133.7751,Thailand,15.87,100.9925,1176.569
+Australia,-25.2744,133.7751,United Arab Emirates,23.4241,53.8478,55.813
+Australia,-25.2744,133.7751,United Kingdom,55.3781,-3.436,1893.388
+Australia,-25.2744,133.7751,United States,37.0902,-95.7129,14401.002
+Australia,-25.2744,133.7751,Vietnam,14.0583,108.2772,810.512
