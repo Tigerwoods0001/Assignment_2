@@ -1,4 +1,4 @@
-Commodity,unit,12
+Commodity,unit,year
 Salmonids b,$’000,0
 Tunas ,$’000,91000
 Silver Perch,$’000,2456
@@ -35,9 +35,9 @@ Yabbies, t ,8
 Marron d, t ,59
 Redclaw, t ,33
 Other, t ,2
-Total, t ,8,828
+Total, t ,8828
 Molluscs,,
-Oysters g, t ,11,234
+Oysters g, t ,11234
 Pearls, t ,                    -  
 Abalone, t ,750
 Blue Mussel, t ,2425
