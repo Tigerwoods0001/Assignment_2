@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+  "url":"https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/consumptiontest.csv"},
+  "mark":"line",
+  "encoding":{
+     "x": {"field": "Year", "type": "temporal"},
+      "y": {"field": "consumption", "type": "quantitative"}
+  }
+  }
+  
+  
+  

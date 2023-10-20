@@ -1,0 +1,23 @@
+{
+    "data": {"url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/fish_production.csv"},
+    "mark": {"type": "bar"},
+    "encoding": {
+      "x": {
+        "field": "Commodity",
+        "type": "nominal",
+        "title": "Fish Commodity"
+      },
+      "y": {
+        "field": "year",
+        "type": "quantitative",
+        "title": "Production Year"
+      },
+      "tooltip": [
+        {"field": "year", "type": "quantitative", "title": "Production (2021-22)"}
+      ]
+    },
+    "title": "Fish Production by Year",
+    "width": 1000,
+    "height": 300
+  }
+  

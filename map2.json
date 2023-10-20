@@ -1,0 +1,98 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Connected Map of Origins and Destinations",
+    "width": 800,
+    "height": 400,
+    "title": "Imports and Exports Non-Edible to Australia",
+    "projection": {"type": "equalEarth"},
+    "data": {
+      "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    "layer": [
+      {
+        "mark": {"type": "geoshape", "fill": "lightblue", "stroke": "white"}
+      },
+      {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/Book2.csv",
+          "format": {"type": "csv"}
+        },
+  
+      
+        "mark": "rule",
+        "encoding": {
+          "longitude": {
+            "field": "longitude_o",
+            "type": "quantitative"
+          },
+          "latitude": {
+            "field": "latitude_o",
+            "type": "quantitative"
+          },
+          "longitude2": {"field": "longitude"},
+          "latitude2": {"field": "latitude"},
+          "color": {"value": "grey"}
+        }
+      },
+        {"data": {
+          "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/Book2.csv",
+          "format": {"type": "csv"}
+        },
+        "mark": "circle",
+        "encoding": {
+          "longitude": {"field": "longitude", "type": "quantitative"},
+          "latitude": {"field": "latitude", "type": "quantitative"},
+          "size": {"value": 200},  
+          "color": {"value": "grey"},  
+          "tooltip": [
+            {"field": "destination", "title": "Destination"}
+          ]
+        }
+    },
+        
+           {
+        "data": {
+          "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/Book6.csv",
+          "format": {"type": "csv"}
+        },
+        "mark": "rule",
+            "encoding": {
+          "longitude": {
+            "field": "longitude_o",
+            "type": "quantitative"
+          },
+          "latitude": {
+            "field": "latitude_o",
+            "type": "quantitative"
+          },
+          "longitude2": {"field": "longitude"},
+          "latitude2": {"field": "latitude"},
+          "color": {"value": "black"}
+        }
+    },
+        {
+          "data": {
+          "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/Book6.csv",
+          "format": {"type": "csv"}
+        },
+        "mark": "square",
+        "encoding": {
+          "longitude": {"field": "longitude", "type": "quantitative"},
+          "latitude": {"field": "latitude", "type": "quantitative"},
+          "size": {"value": 100},  
+          "color": {"value": "black"},  
+          "tooltip": [
+            {"field": "destination", "title": "Destination"}
+          ]
+        }
+    }
+]
+  
+    }
+      
+        
+      
+    
+  
+  
