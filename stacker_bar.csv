@@ -1,8 +1,8 @@
 origin,latitude_o,longitude_o,type,destination,latitude,longitude,direction,count,category
 Australia,-25.2744,133.7751,import,Argentina,-34.6118,-58.4173,import,5591.359,edible
 Australia,-25.2744,133.7751,import,Canada,45.4215,-75.6919,import,14528.479,edible
-Australia,-25.2744,133.7751,import,Chile                                   ,-33.4489,-70.6693,import,7391.572,edible
-Australia,-25.2744,133.7751,import,China                                   ,39.9042,116.4074,import,269498.152,edible
+Australia,-25.2744,133.7751,import,Chile,-33.4489,-70.6693,import,7391.572,edible
+Australia,-25.2744,133.7751,import,China,39.9042,116.4074,import,269498.152,edible
 Australia,-25.2744,133.7751,import,Denmark,55.6761,12.5683,import,71126.048,edible
 Australia,-25.2744,133.7751,import,Germany,52.52,13.405,import,5818.692,edible
 Australia,-25.2744,133.7751,import,India,28.6139,77.209,import,3914.323,edible
