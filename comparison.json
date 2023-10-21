@@ -1,25 +1,23 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "A scatterplot showing GVP and consumption for different years.",
-    "data": {"url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/comparison.csv"},
-    "layer": [
-      {
-        "mark": "point",
-        "encoding": {
-          "x": {"field": "year", "type": "nominal"},
-          "y": {"field": "gvp_c", "type": "quantitative"},
-          "color": {"value": "red"}
-        }
-      },
-      {
-        "mark": "point",
-        "encoding": {
-          "x": {"field": "year", "type": "nominal"},
-          "y": {"field": "consum_c", "type": "quantitative"},
-          "color": {"value": "grey"}
-        }
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing GVP and consumption for different years.",
+  "data": {"url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/comparison.csv"},
+  "layer": [
+    {
+      "mark": {"type": "point", "tooltip": true},
+      "encoding": {
+        "x": {"field": "year", "type": "nominal"},
+        "y": {"field": "gvp_c", "type": "quantitative", "title": "GVP"},
+        "color": {"value": "red"}
       }
-    ]
-  }
-  
-  
+    },
+    {
+      "mark": {"type": "point", "tooltip": true},
+      "encoding": {
+        "x": {"field": "year", "type": "nominal", "title": "Year"},
+        "y": {"field": "consum_c", "type": "quantitative", "title": "Consumption"},
+        "color": {"value": "grey"}
+      }
+    }
+  ]
+}
