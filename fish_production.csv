@@ -1,47 +1,16 @@
-Commodity,unit,year
-Salmonids b,$’000,0
-Tunas ,$’000,91000
-Silver Perch,$’000,2456
-Barramundi,$’000,86239
-Other Finfish c,$’000,52893
-Total,$’000,0
-Crustaceans,,
-Prawns,$’000,159701
-Yabbies,$’000,493
-Marron d,$’000,2135
-Redclaw,$’000,900
-Other,$’000,56.4
-Total,$’000,163285
-Molluscs,,
-Oysters,$’000,138200
-Pearls,$’000,70542
-Abalone,$’000,27776
-Blue Mussel,$’000,6024
-Other,$’000,23083
-Total,$’000,265626
-Other nei e,$’000,34402
-Total value,$’000,0
-Quantity,,
-Finfish,,
-Salmonids b, t ,84341
-Tunas , t ,7600
-Silver Perch, t ,149
-Barramundi, t ,7815
-Other Finfish c, t ,3928
-Total, t ,103833
-Crustaceans,,
-Prawns, t ,8727
-Yabbies, t ,8
-Marron d, t ,59
-Redclaw, t ,33
-Other, t ,2
-Total, t ,8828
-Molluscs,,
-Oysters g, t ,11234
-Pearls, t ,                    -  
-Abalone, t ,750
-Blue Mussel, t ,2425
-Other, t ,1786
-Total, t ,16194
-Other nei e, t ,2724
-Total quantity, t ,131578
+type,fish,unit,2015-16,2016-2017,2018-2019,2019-2020,2020-2021,2022-2023,,
+Finfish,Salmonids b, t ,"56,319","52,800","61,413","58,355","67,115","84,341",,
+Finfish,Tunas , t ,"8,895","8,100","8,000","8,252","8,345","7,600",,
+Finfish,Silver Perch, t ,382,339,343,195,184,149,,
+Finfish,Barramundi, t ,"3,542","4,114","5,668","3,365","3,508","7,815",,
+Finfish,Other Finfish c, t ,"2,815","3,082","3,371","3,807","4,066","3,928",,
+Crustaceans,Prawns, t ,"4,628","4,624","4,205","4,794","6,740","8,727",,
+Crustaceans,Yabbies, t ,33,29,51,28,14,8,,
+Crustaceans,Marron d, t ,56,55,66,63,57,59,,
+Crustaceans,Redclaw, t ,51,65,49,45,62,33,,
+Crustaceans,Other, t ,0,0,0,3,3,2,,
+Molluscs,Oysters g, t ,"11,345","11,932","8,824","8,849","9,011","11,234",,
+Molluscs,Pearls, t ,0,0,0,0,0,0,,
+Molluscs,Abalone, t ,757,873,"1,027",520,549,750,,
+Molluscs,Blue Mussel, t ,"3,625","3,811","3,781","2,711","2,342","2,425",,
+Molluscs,Other, t ,0,0,0,"1,706","1,573","1,786",,
