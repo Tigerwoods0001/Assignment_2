@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <link rel="stylesheet" type="text/css" href="bb.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,27 +13,75 @@
     <title>Australia Aquatic Harvest</title>
 </head>
 <body>
-    <style>
+    <div class="page">
+      <style>
         h1 {
-          color: #f3eded;
+          color: #f1eded;
         }
       </style>
-    <h1>Import and Exports of Edible Fish</h1>
-    <div id="map1_Chart"></div>
+       <h1 style="text-align:center;color:rgba(71, 135, 255, 0.801)">Australia Aquatic Harvest</h1>
+       <p style="color:rgba(71, 135, 255, 0.801);font-family:Verdana">Seafood plays an important role in the Australian diet. Every year, we consume approximately 15 kg of fish each person, and our hunger is increasing. Our seafood comes from a variety of sources, with approximately 65% of what we eat imported from other countries (Seafood in Australia, n.d.). 
+        Australia's fish are brought to the table by the Aquaculture and wild capture production in Australia. However, by global measures, our waters are not extremely productive. Unlike other countries, the Australian continent lacks major offshore upwellings and sufficient runoff from the landmass 
+        to produce nutrients that support greater fish species naturally (Hobday et al. 2006) Hence Australia's seafood is sourced from both wild catch and aquaculture. 
+         </p> 
+      
+      <h1 style="text-align:center;color:rgba(71, 135, 255, 0.801)">Import and Exports of Edible Fish</h1>
+      <p style="color:rgba(71, 135, 255, 0.801);font-family:Verdana">Australia imports and exports two types of fish: edible and non-edible. The<strong style="color: cadetblue;font-family:Verdana">  red line</strong> represents the countries that trade fish with Australia, while the 
+        <strong style="color: cadetblue;font-family:Verdana"> black line </strong>represents the countries to which Australia exports. </p>
+      <div class="map-container">
+        <div id="map1_Chart"></div>
 
-    <h1>Import and Exports of Non-Edible Fish</h1>
-    <div id="map2_chart"></div>
+        <div id="map2_chart"></div>
 
-    <h1>Fish Species Production in 2021-22</h1>
-    <div id="bar_chart"></div>
+      </div>
 
-    <h1>Types of imports and exports</h1>
-    <div id="bar2_chart"></div>
+      <h1 style=" color: rgba(71, 135, 255, 0.801); font-family: Verdana;">Global Participants in Fish Trade</h1>
+      <div id="bar_chart"></div>
+      <p style=" color: rgb(167, 174, 187); font-family: Verdana; font-size: 11px;"> (Unit is per million)</p>
 
-    <h1>Fish production history</h1>
-    <div id="line_chart"></div>
-
-    <h1>Are there enough Fish?</h1>
-    <div id="scatter_chart"></div>
+      <h1 style="text-align:center;color:rgba(71, 135, 255, 0.801)">Aquaculture Seafood Produced in 2022</h1>
+      <div style="clear: both;">
+        <div id="piechart" style="float: left;"></div>
+    <div style="text-align:left;">
+      <p style=" color: rgba(71, 135, 255, 0.801); font-family: Verdana;">The expansion of Australian aquaculture has been mostly driven by an increase in salmonid production and a decrease in wild-caught production. 
+        In recent years, the aquaculture business has broadened the composition of species produced, with a greater concentration on prawns, abalone, oysters, and finfish variations such as barramundi and kingfish. 
+        Australia's seafood is divided into three species:<br> 1. Finfish 
+        <br>
+        2. Crustacea
+        <br>
+        3. Molluscs</p>
+      <p style=" color: rgb(167, 174, 187); font-family: Verdana; font-size: 11px;"> (Unit is measured tonnes) </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 style=" color: rgba(71, 135, 255, 0.801); font-family: Verdana;">Does Australia have enough Seafood ?</h1>
+    <div style="clear: both;">
+      <div id="line_chart"></div>
+      <p style=" color: rgb(167, 174, 187); font-family: Verdana; font-size: 11px;"> (Gross Value Production is measured in tonnes and Apparent Consumption is measured in millions) </p>
+      <div style="text-align:left;">
+        <p style=" color: rgba(71, 135, 255, 0.801); font-family: Verdana;"> Fishery gross value of production (GVP) estimates the monetary amount of activity in commercial fisheries and aquaculture production. GVP is computed by multiplying the total weight of production by the landed unit value. The landed unit value is defined as the beach price for fish species obtained in wild-catch fisheries and the farm gate price for aquaculture goods. Beach price is utilised so that GVP measures what is 
+          immediately produced from the resource rather than the value added component as the product goes through the supply chain.
+        <br>
+        Apparent consumption data are given as total product amount each year, and per capita consumption is calculated by dividing apparent consumption by the mean resident population for that year.
+        <br>
+        <br>
+        Since both the concepts are measured vastly differently, I normalized the values to show the trend for high demand for Seafood </p>
+        </p>
+        
+    </div>
+      
+      <div >
+        <b style=" color: rgba(71, 135, 255, 0.801); font-family: Verdana;">Author:</b>
+        Neharika R Shimpiger | Monash University
+        <br>
+        <b style=" color: rgba(71, 135, 255, 0.801); font-family: Verdana;">Datasource:</b>
+        <a href="https://www.agriculture.gov.au/abares/research-topics/fisheries">Link</a>
+      </div>
+  </div>
+</section>
 </body>
 </html>
