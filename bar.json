@@ -1,31 +1,25 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": { "text": "Fish Imports and Exports by Country" },
-    "width": 700,
-    "height": 600,
-    "layer": [
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/Book1.csv"
-        },
-        "mark": "bar",
-        "encoding": {
-          "y": { "field": "destination", "type": "nominal" },
-          "x": { "field": "count", "type": "quantitative" },
-           "color": { "value": "grey" }
-        }
-      },
-      {
-        "data": {
-          "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/Book4.csv"
-        },
-        "mark": "bar",
-        "encoding": {
-          "y": { "field": "destination", "type": "nominal" },
-          "x": { "field": "count", "type": "quantitative" },
-           "color": { "value": "lightblue" }
-        }
-      }
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "",
+  "width": 500,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/stacker_bar.csv"
+  },
+  "transform": [{"fold": ["destination"], "as": ["key1", "value"]}],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "type", "type": "nominal", "title":""},
+    "y": {"field": "count", "type": "quantitative","title":""},
+    "color": {"type": "nominal", "field": "destination", "title":"Country"},
+    "tooltip": [
+      {"field": "destination", "title": "Destination"},
+      {"field": "count", "title": "Volume of Fishes"}
     ]
+  },
+  "config": {
+    "axis": {
+      "labelFontSize": 15  
+    }
   }
-  
+}
