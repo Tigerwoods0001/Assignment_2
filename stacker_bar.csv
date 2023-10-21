@@ -1,41 +1,41 @@
-origin,latitude_o,longitude_o,type,destination,latitude,longitude,direction
-Australia,-25.2744,133.7751,import,Argentina,-34.6118,-58.4173,import
-Australia,-25.2744,133.7751,import,Canada,45.4215,-75.6919,import
-Australia,-25.2744,133.7751,import,Chile                                   ,-33.4489,-70.6693,import
-Australia,-25.2744,133.7751,import,China                                   ,39.9042,116.4074,import
-Australia,-25.2744,133.7751,import,Denmark ,55.6761,12.5683,import
-Australia,-25.2744,133.7751,import,Germany ,52.52,13.405,import
-Australia,-25.2744,133.7751,import,India ,28.6139,77.209,import
-Australia,-25.2744,133.7751,import,Indonesia ,-6.2088,106.8456,import
-Australia,-25.2744,133.7751,import,Italy ,41.9028,12.4964,import
-Australia,-25.2744,133.7751,import,Japan ,35.682839,139.759455,import
-Australia,-25.2744,133.7751,import,"Korea, Republic of",37.5665,126.978,import
-Australia,-25.2744,133.7751,import,Malaysia,3.139,101.6869,import
-Australia,-25.2744,133.7751,import,Myanmar ,16.8661,96.1951,import
-Australia,-25.2744,133.7751,import,Namibia ,-22.5597,17.0832,import
-Australia,-25.2744,133.7751,import,New Zealand ,-41.2865,174.7762,import
-Australia,-25.2744,133.7751,import,Norway,59.9139,10.7522,import
-Australia,-25.2744,133.7751,import,Philippines ,13.4124,122.5305,import
-Australia,-25.2744,133.7751,import,Poland,52.2297,21.0122,import
-Australia,-25.2744,133.7751,import,Singapore ,1.3521,103.8198,import
-Australia,-25.2744,133.7751,import,South Africa,-25.7461,28.1881,import
-Australia,-25.2744,133.7751,import,Taiwan,25.033,121.5654,import
-Australia,-25.2744,133.7751,import,Thailand,13.7563,100.5018,import
-Australia,-25.2744,133.7751,import,United Kingdom,51.5099,-0.118,import
-Australia,-25.2744,133.7751,import,United States,38.8951,-77.0364,import
-Australia,-25.2744,133.7751,import,Vietnam,21.0285,105.8542,import
-Australia,-25.2744,133.7751,export,Canada,56.1304,-106.3468,export
-Australia,-25.2744,133.7751,export,China,35.8617,104.1954,export
-Australia,-25.2744,133.7751,export,France,46.6033,1.8883,export
-Australia,-25.2744,133.7751,export,Germany,51.1657,10.4515,export
-Australia,-25.2744,133.7751,export,Hong Kong,22.3193,114.1694,export
-Australia,-25.2744,133.7751,export,Indonesia,-0.7893,113.9213,export
-Australia,-25.2744,133.7751,export,Italy,41.8719,12.5674,export
-Australia,-25.2744,133.7751,export,Japan,36.2048,138.2529,export
-Australia,-25.2744,133.7751,export,Malaysia,4.2105,101.9758,export
-Australia,-25.2744,133.7751,export,New Zealand,-40.9006,174.886,export
-Australia,-25.2744,133.7751,export,Singapore,1.3521,103.8198,export
-Australia,-25.2744,133.7751,export,Taiwan,23.6978,120.9605,export
-Australia,-25.2744,133.7751,export,Thailand,15.87,100.9925,export
-Australia,-25.2744,133.7751,export,United States,39.8333,-98.5855,export
-Australia,-25.2744,133.7751,export,Vietnam,14.0583,108.2772,export
+origin,latitude_o,longitude_o,type,destination,latitude,longitude,direction,count
+Australia,-25.2744,133.7751,import,Argentina,-34.6118,-58.4173,import,5591.359
+Australia,-25.2744,133.7751,import,Canada,45.4215,-75.6919,import,14528.479
+Australia,-25.2744,133.7751,import,Chile                                   ,-33.4489,-70.6693,import,7391.572
+Australia,-25.2744,133.7751,import,China                                   ,39.9042,116.4074,import,269498.152
+Australia,-25.2744,133.7751,import,Denmark ,55.6761,12.5683,import,71126.048
+Australia,-25.2744,133.7751,import,Germany ,52.52,13.405,import,5818.692
+Australia,-25.2744,133.7751,import,India ,28.6139,77.209,import,3914.323
+Australia,-25.2744,133.7751,import,Indonesia ,-6.2088,106.8456,import,113313.03
+Australia,-25.2744,133.7751,import,Italy ,41.9028,12.4964,import,10116.317
+Australia,-25.2744,133.7751,import,Japan ,35.682839,139.759455,import,26938.035
+Australia,-25.2744,133.7751,import,"Korea, Republic of",37.5665,126.978,import,11349.653
+Australia,-25.2744,133.7751,import,Malaysia,3.139,101.6869,import,69188.104
+Australia,-25.2744,133.7751,import,Myanmar ,16.8661,96.1951,import,11973.255
+Australia,-25.2744,133.7751,import,Namibia ,-22.5597,17.0832,import,9041.149
+Australia,-25.2744,133.7751,import,New Zealand ,-41.2865,174.7762,import,208235.932
+Australia,-25.2744,133.7751,import,Norway,59.9139,10.7522,import,71117.267
+Australia,-25.2744,133.7751,import,Philippines ,13.4124,122.5305,import,7970.968
+Australia,-25.2744,133.7751,import,Poland,52.2297,21.0122,import,28337.142
+Australia,-25.2744,133.7751,import,Singapore ,1.3521,103.8198,import,5474.317
+Australia,-25.2744,133.7751,import,South Africa,-25.7461,28.1881,import,33854.162
+Australia,-25.2744,133.7751,import,Taiwan,25.033,121.5654,import,50763.411
+Australia,-25.2744,133.7751,import,Thailand,13.7563,100.5018,import,381292.513
+Australia,-25.2744,133.7751,import,United Kingdom,51.5099,-0.118,import,16248.045
+Australia,-25.2744,133.7751,import,United States,38.8951,-77.0364,import,53554.388
+Australia,-25.2744,133.7751,import,Vietnam,21.0285,105.8542,import,363192.339
+Australia,-25.2744,133.7751,export,Canada,56.1304,-106.3468,export,2986.686
+Australia,-25.2744,133.7751,export,China,35.8617,104.1954,export,360860.188
+Australia,-25.2744,133.7751,export,France,46.6033,1.8883,export,1298.38
+Australia,-25.2744,133.7751,export,Germany,51.1657,10.4515,export,1380.012
+Australia,-25.2744,133.7751,export,Hong Kong,22.3193,114.1694,export,225023.021
+Australia,-25.2744,133.7751,export,Indonesia,-0.7893,113.9213,export,18937.192
+Australia,-25.2744,133.7751,export,Italy,41.8719,12.5674,export,3983.853
+Australia,-25.2744,133.7751,export,Japan,36.2048,138.2529,export,177432.777
+Australia,-25.2744,133.7751,export,Malaysia,4.2105,101.9758,export,6220.206
+Australia,-25.2744,133.7751,export,New Zealand,-40.9006,174.886,export,21885.405
+Australia,-25.2744,133.7751,export,Singapore,1.3521,103.8198,export,39206.971
+Australia,-25.2744,133.7751,export,Taiwan,23.6978,120.9605,export,56961.889
+Australia,-25.2744,133.7751,export,Thailand,15.87,100.9925,export,38918.556
+Australia,-25.2744,133.7751,export,United States,39.8333,-98.5855,export,101323.095
+Australia,-25.2744,133.7751,export,Vietnam,14.0583,108.2772,export,70545.233
