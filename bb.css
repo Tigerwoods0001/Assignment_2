@@ -1,5 +1,13 @@
 body {
     background-image: url('fish_bg.jpg'); 
     background-size: cover; 
-    background-repeat: no-repeat; 
+    background-repeat: repeat; 
   }
+.page {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    padding: 100px;
+    padding-top: 35px;
+}
+
