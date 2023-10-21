@@ -1,0 +1,24 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple pie chart with embedded data.",
+    "data": {
+      "url": "https://raw.githubusercontent.com/Tigerwoods0001/Assignment_2/main/fish_production.csv"
+    },
+    "params": [
+      {"name": "highlight", "select": {"type": "point", "on": "mouseover"}}
+    ],
+    "mark": {"type": "arc", "stroke": "white", "cursor": "pointer"},
+    "encoding": {
+      "theta": {"field": "2022-2023", "type": "quantitative"},
+      "tooltip": [{"field": "2022-2023", "title": "Tonnes of "}],
+      "color": {"field": "fish", "type": "nominal","title":"Fish Type"}, 
+      "fillOpacity": {
+        "condition": [{"param": "highlight", "value": 1}],
+        "value": 0.3
+      },
+      "strokeWidth": {
+        "condition": [{"param": "highlight", "empty": false, "value": 5}],
+        "value": 0
+      }
+    }
+  }
